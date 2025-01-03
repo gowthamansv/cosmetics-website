@@ -12,7 +12,7 @@ const Navbar = () => {
         <img src={logo} className="w-44 h-14 m-2 object-cover" />
       </div>
       <div className="flex items-center">
-        <ul className="flex space-x-6 font-semibold text-2xl text-white">
+        <ul className="flex space-x-6 text-lg uppercase text-white">
           <li>
             <Link to="/" className="hover:text-black">
               Home
