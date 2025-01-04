@@ -1,0 +1,19 @@
+version: "3.3"
+services:
+  backend: 
+    container_name: backend-container
+    build: .
+    ports:
+      - 3000:3000
+    networks:
+      - project-network
+  Database:
+    container_name: postgres-container
+    image: postgres:16-alpine3.20
+    ports:
+      - 8080:8080
+    networks:
+      - project-network
+networks:
+  project-network:
+    driver: bridge
