@@ -3,3 +3,39 @@
   src: url("./Gruppo-Regular.ttf") format("truetype");
   font-style: normal;
 }
+@font-face {
+  font-family: "Montserrat";
+  src: url("./Montserrat-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400; /* Regular weight */
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./Montserrat-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700; /* Bold weight */
+}
+
+@font-face {
+  font-family: "Valky";
+  src: url("./ValkyRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* @font-face {
+  font-family: "Montserrat";
+  src: url("./assets/fonts/montserrat/Montserrat-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/fonts/montserrat/Montserrat-ThinItalic.ttf")
+    format("truetype");
+  font-weight: 100;
+  font-style: italic;
+} */
+/* Repeat similar blocks for all other styles and weights */

@@ -54,3 +54,7 @@ button:focus-visible {
 title {
   font-family: "Gruppo", sans-serif;
 } */
+
+body::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
